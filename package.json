@@ -45,6 +45,7 @@
         "tsconfig.json",
         "jest.*.js"
       ],
+      "output": [],
       "packageLocks": [
         "yarn.lock"
       ]
