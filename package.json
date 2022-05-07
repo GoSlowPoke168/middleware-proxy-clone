@@ -30,7 +30,8 @@
         "tsconfig.json"
       ],
       "output": [
-        "dist/**"
+        "dist/**",
+        "tsconfig.tsbuildinfo"
       ],
       "packageLocks": [
         "yarn.lock"
