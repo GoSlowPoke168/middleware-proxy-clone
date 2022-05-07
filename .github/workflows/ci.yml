@@ -14,6 +14,9 @@ jobs:
         with:
           node-version: 18.x
 
+      # Set up GitHub Actions caching for Wireit.
+      - uses: google/wireit@setup-github-actions-caching/v1
+
       - uses: actions/cache@v3
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
@@ -47,6 +50,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      # Set up GitHub Actions caching for Wireit.
+      - uses: google/wireit@setup-github-actions-caching/v1
+
       - uses: actions/cache@v3
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
@@ -76,6 +82,9 @@ jobs:
         with:
           node-version: 18.x
 
+      # Set up GitHub Actions caching for Wireit.
+      - uses: google/wireit@setup-github-actions-caching/v1
+
       - uses: actions/cache@v3
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
@@ -101,6 +110,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: streetsidesoftware/cspell-action@main
         with:
           # Github token used to fetch the list of changed files in the commit.

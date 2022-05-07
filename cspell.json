@@ -47,6 +47,7 @@
     "streamify",
     "vhosted",
     "websockets",
+    "wireit",
     "xfwd"
   ]
 }
