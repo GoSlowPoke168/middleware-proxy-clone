@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "clean": "rm -rf dist coverage tsconfig.tsbuildinfo .eslintcache .wireit",
-    "lint": "yarn prettier && yarn eslint",
-    "lint:fix": "yarn prettier:fix && yarn eslint:fix",
+    "lint": "wireit",
+    "lint:fix": "wireit",
     "eslint": "eslint '{src,test}/**/*.ts' --cache",
     "eslint:fix": "yarn eslint --fix",
     "prettier": "prettier --list-different \"**/*.{js,ts,md,yml,json,html}\"",
@@ -62,6 +62,18 @@
       ],
       "packageLocks": [
         "yarn.lock"
+      ]
+    },
+    "lint": {
+      "dependencies": [
+        "prettier",
+        "eslint"
+      ]
+    },
+    "lint:fix": {
+      "dependencies": [
+        "prettier:fix",
+        "eslint:fix"
       ]
     }
   },
