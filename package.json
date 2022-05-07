@@ -24,7 +24,7 @@
   },
   "wireit": {
     "build": {
-      "command": "tsc",
+      "command": "tsc --build",
       "files": [
         "src/**/*.ts",
         "tsconfig.json"
