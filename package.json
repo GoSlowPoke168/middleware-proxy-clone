@@ -24,7 +24,7 @@
   },
   "wireit": {
     "build": {
-      "command": "tsc --build",
+      "command": "tsc --build --pretty",
       "files": [
         "src/**/*.ts",
         "tsconfig.json"
@@ -39,7 +39,7 @@
       "clean": "if-file-deleted"
     },
     "test": {
-      "command": "jest",
+      "command": "jest --colors",
       "files": [
         "{src,test}/**/*.ts",
         "tsconfig.json",
@@ -50,7 +50,7 @@
       ]
     },
     "coverage": {
-      "command": "jest --coverage",
+      "command": "jest --coverage --colors",
       "files": [
         "{src,test}/**/*.ts",
         "tsconfig.json",
