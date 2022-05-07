@@ -34,7 +34,8 @@
       ],
       "packageLocks": [
         "yarn.lock"
-      ]
+      ],
+      "clean": "if-file-deleted"
     },
     "test": {
       "command": "jest",
