@@ -6104,10 +6104,10 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-wireit@0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/wireit/-/wireit-0.5.0.tgz#89a5c18bef6408a7a6899c124d0ed700ded99f0c"
-  integrity sha512-WaUBjf6Uglipf3q5vNoLsryofZcGq6CxG5vbZsyaqcL2j+/T3+lc/NlEjXMTAWmb8a3MvpVhX3NUk8S04clpRw==
+wireit@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/wireit/-/wireit-0.7.0.tgz#7312565f70d2ff6b1d573c85b69fb61c6192b744"
+  integrity sha512-VQAH/ma6ujc9Y+K4zn5U76vH/Q4rFq74zWS+CMrkYhczi6nwKA+Z0zw9hrvIjbMoYs7wswu4ysaXe63Rnv4tlg==
   dependencies:
     braces "^3.0.2"
     chokidar "^3.5.3"
