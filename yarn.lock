@@ -703,21 +703,21 @@
     debug "^4.3.1"
     socks "^2.6.1"
 
-"@httptoolkit/subscriptions-transport-ws@^0.9.19":
-  version "0.9.19"
-  resolved "https://registry.yarnpkg.com/@httptoolkit/subscriptions-transport-ws/-/subscriptions-transport-ws-0.9.19.tgz#ed40f4e31f03232338b628ff43f1e256e957bad6"
-  integrity sha512-Ted0uAgu3hGFuHo/gT47xdO4XtEQLhKYJJf1BNr2o1Muvn3uqz/Skt1HGvlni9eCiTSacWG6miBlg5Tr7RvvNw==
+"@httptoolkit/subscriptions-transport-ws@^0.11.2":
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/@httptoolkit/subscriptions-transport-ws/-/subscriptions-transport-ws-0.11.2.tgz#514663c926264e2de7f6cd33d09f81675c35b9e3"
+  integrity sha512-YB+gYYVjgYUeJrGkfS91ABeNWCFU7EVcn9Cflf2UXjsIiPJEI6yPxujPcjKv9wIJpM+33KQW/qVEmc+BdIDK2w==
   dependencies:
     backo2 "^1.0.2"
     eventemitter3 "^3.1.0"
     iterall "^1.2.1"
     symbol-observable "^1.0.4"
-    ws "^7.4.6"
+    ws "^8.8.0"
 
-"@httptoolkit/websocket-stream@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@httptoolkit/websocket-stream/-/websocket-stream-6.0.0.tgz#72d00c06944057951d7ab8a8f8336033c7b52e90"
-  integrity sha512-EC8m9JbhpGX2okfvLakqrmy4Le0VyNKR7b3IdvFZR/BfFO4ruh/XceBvXhCFHkykchnFxuOSlRwFiqNSXlwcGA==
+"@httptoolkit/websocket-stream@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@httptoolkit/websocket-stream/-/websocket-stream-6.0.1.tgz#8d732f1509860236276f6b0759db4cc9859bbb62"
+  integrity sha512-A0NOZI+Glp3Xgcz6Na7i7o09+/+xm2m0UCU8gdtM2nIv6/cjLmhMZMqehSpTlgbx9omtLmV8LVqOskPEyWnmZQ==
   dependencies:
     "@types/ws" "*"
     duplexify "^3.5.1"
@@ -4480,16 +4480,16 @@ mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
-mockttp@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/mockttp/-/mockttp-3.1.0.tgz#3104bf64ae3d010e35d2472b6ef31c3e006a8fcb"
-  integrity sha512-DCK4SAjOXexIpp3QACmzmoiebMgsAap1IR6in6R1zTyYc81LkAiiWgOUwbAbp5WOcUvbh/f1QomWLi5X6prc9A==
+mockttp@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/mockttp/-/mockttp-3.2.0.tgz#db695cf233d26978fbaa5f982ab49edce61eee88"
+  integrity sha512-8Jm/jyMEXhQlssV7XyuhJAGD+/7l2masx+REp1Yx2k3rSFg0t7xEJLXzZdjaNOO96DY67n4rtr1fhduBj/Bh3g==
   dependencies:
     "@graphql-tools/schema" "^8.3.10"
     "@httptoolkit/httpolyglot" "^2.0.1"
     "@httptoolkit/proxy-agent" "^5.0.1-socks-lookup-fix.0"
-    "@httptoolkit/subscriptions-transport-ws" "^0.9.19"
-    "@httptoolkit/websocket-stream" "^6.0.0"
+    "@httptoolkit/subscriptions-transport-ws" "^0.11.2"
+    "@httptoolkit/websocket-stream" "^6.0.1"
     "@types/cors" "^2.8.6"
     "@types/node" "*"
     base64-arraybuffer "^0.1.5"
@@ -4516,7 +4516,7 @@ mockttp@3.1.0:
     portfinder "^1.0.23"
     typed-error "^3.0.2"
     uuid "^8.3.2"
-    ws "^7.3.1"
+    ws "^8.8.0"
 
 ms@2.0.0:
   version "2.0.0"
@@ -6204,10 +6204,15 @@ ws@8.5.0:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
   integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
-ws@^7.3.1, ws@^7.4.6:
+ws@^7.4.6:
   version "7.5.6"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
   integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
+
+ws@^8.8.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.8.0.tgz#8e71c75e2f6348dbf8d78005107297056cb77769"
+  integrity sha512-JDAgSYQ1ksuwqfChJusw1LSJ8BizJ2e/vVu5Lxjq3YvNJNlROv1ui4i+c/kUUrPheBvQl4c5UbERhTwKa6QBJQ==
 
 ws@~8.2.3:
   version "8.2.3"
